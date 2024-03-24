@@ -15,7 +15,7 @@
   <body class="min-h-[100vh] bg-white">
     <!-- Header -->
     <header class="w-9/12 mx-auto pt-16">
-      <div class="flex justify-around items-center">
+      <div class="flex flex-col lg:flex-row justify-around items-center">
         <div class="space-y-2">
           <h1 class="text-black text-4xl font-bold">
             It's good tea time at The Tea House
@@ -58,7 +58,7 @@
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
-        <div class="grid grid-cols-4 gap-6">
+        <div class="grid gridcols-1 lg:grid-cols-4 gap-6">
           <div
             class="bg-gray-100 flex flex-col items-center p-4 gap-3 rounded-md"
           >
@@ -91,7 +91,7 @@
       </section>
       <!-- Display -->
       <section class="py-28">
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div class="grid grid-cols-3 gap-4">
             <div class="bg-[#FFE9E7]"></div>
             <div class="bg-[#FFE9E7] flex justify-center col-span-2">
@@ -131,14 +131,14 @@
       </section>
       <!-- Client -->
       <section class="py-28">
-        <div class="bg-gradient-to-r from-orange-500 to-orange-700 flex items-center p-10  justify-around">
-            <div class="text-white w-[30%] space-y-2">
+        <div class="bg-gradient-to-r from-orange-500 to-orange-700 flex flex-col lg:flex-row items-center p-10  justify-around">
+            <div class="text-white lg:w-[30%] space-y-2 mb-10 lg:mb-10">
                 <h2 class="font-bold text-2xl">Meet Our Super Clients</h2>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <button class="bg-white text-orange-500 py-2 px-4 rounded-md font-bold">Show All</button>
             </div>
-            <div class="relative w-[40%]">
-                <div class="bg-white p-10 opacity-40 rounded-md mb-28 z-10  ">
+            <div class="relative lg:w-[40%] ">
+                <div class="bg-white p-10 opacity-40 rounded-md mb-28 z-10 hidden lg:block ">
                     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h3 class="font-bold text-black">Ilham Yuda</h3>
                     <p>Businessman</p>
@@ -147,7 +147,7 @@
                         <img src="../images/circles.png" alt="">
                     </div>
                 </div>
-                <div class="bg-white p-10 w-3/4 rounded-md absolute top-40 -left-20">
+                <div class="bg-white p-10 w-3/4 rounded-md lg:absolute top-40 -left-20 ">
                     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h3 class="font-bold text-black">Ilham Yuda</h3>
                     <p>Businessman</p>
@@ -156,7 +156,7 @@
                         <img src="../images/circles.png" alt="">
                     </div>
                 </div>
-                <div class="bg-white p-10 opacity-40 rounded-md z-10 ">
+                <div class="bg-white p-10 opacity-40 rounded-md z-10 hidden lg:block">
                     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h3 class="font-bold text-black">Ilham Yuda</h3>
                     <p>Businessman</p>
@@ -176,9 +176,9 @@
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div class="card shadow-xl">
-            <figure class="mt-6">
+            <figure class="pt-12">
               <img src="../images/news-1.png" alt="Shoes" />
             </figure>
             <div class="card-body">
@@ -195,7 +195,7 @@
             </div>
           </div>
           <div class="card shadow-xl">
-            <figure class="mt-6">
+            <figure class="pt-12">
               <img src="../images/news-2.png" alt="Shoes" />
             </figure>
             <div class="card-body">
@@ -212,7 +212,7 @@
             </div>
           </div>
           <div class="card shadow-xl">
-            <figure class="mt-6">
+            <figure class="pt-12">
               <img src="../images/news-3.png" alt="Shoes" />
             </figure>
             <div class="card-body">
@@ -232,7 +232,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer p-10 bg-[#FFE9E7] text-black">
+    <footer class="footer p-10 bg-[#FFE9E7] text-black sm:grid grid-cols-3">
       <nav>
         <h6 class="footer-title">Services</h6>
         <a class="link link-hover">Branding</a>
